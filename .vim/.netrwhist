@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/cirullis/Desktop/languagetechnology/docker/existdb'
+let g:netrw_dirhist_2='/home/cirullis/Desktop/languagetechnology/docker/docker-postfix/assets'
+let g:netrw_dirhist_3='/home/cirullis/Desktop/languagetechnology/docker/jenkins/jobs/lexical_rdf_conversion'
+let g:netrw_dirhist_4='/home/cirullis/Desktop/languagetechnology/docker/elk/etc/supervisor/conf.d'
+let g:netrw_dirhist_5='/home/cirullis/Desktop/languagetechnology/docker/kibana'
+let g:netrw_dirhist_6='/home/cirullis/Desktop/languagetechnology/docker/logstash'
+let g:netrw_dirhist_7='/home/cirullis/Desktop/languagetechnology/docker/jenkins'
