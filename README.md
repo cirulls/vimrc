@@ -1,27 +1,28 @@
-# vim
-This repository contains my current vim configuration. It also contains the following plugins:
+# vimrc
+This repository contains my vimrc configuration and the following vim plugins:
 
 - pathogen
 - syntastic
 - eregex
 - nerdtree
 - perl-support
+- jedi-vim 
 - tabline
 - vim-commentary
 - vim-json
 - vim-xpath 
 
-To copy and use it, simply go to your home directory and clone it:
+I clone this configuration to my home directory every time I need my vim configuration on a new machine (typically when using cloud instances). 
 
+This configuration assumes that vim 7.+ with python support is installed. You can check the vim version with
 ```
-cd ~
-git clone https://github.com/cirulls/vim.git
+vim --version
 ```
 
 
 ## Libraries requirements
 ### lxml
-If you get the following warning: 
+In case you get the following warning: 
 
 *vim-xpath requires the lxml python library (http://lxml.de) to be installed. To stop this message from appearing, either install lxml, uninstall this plugin or add the line "let g:skip_xpath = 1" to your vimrc.*
 
@@ -55,4 +56,5 @@ You may need to adjust the path according to the version of python you are using
 For issues relates to fonts for powerline see https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
 
 
-
+## Licenses
+This configuration is licensed under GNU GPL3 but each plugin has its own license. vim itself is licensed under a charityware license (GPL compatible).
