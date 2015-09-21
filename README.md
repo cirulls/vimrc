@@ -57,4 +57,4 @@ For issues relates to fonts for powerline see https://powerline.readthedocs.org/
 
 
 ## Licenses
-This configuration is licensed under GNU GPL3 but each plugin has its own license. vim itself is licensed under a [charityware license](https://github.com/vim/vim#copying) (GPL compatible).
+This configuration is licensed under GNU GPL3 but each plugin has its own license. Vim itself is licensed under a [charityware license](https://github.com/vim/vim#copying) (GPL compatible).
