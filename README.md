@@ -32,6 +32,12 @@ First, make sure you have the development libraries of libxml and libxslt instal
 sudo yum install -y libxml-devel libxslt-devel
 ```
 
+On Ubuntu/Debian:
+```
+sudo yum install -y libxml2-dev libxslt-dev
+```
+
+
 Then, install the lxml python library as follows:
 
 ```
@@ -42,12 +48,19 @@ sudo pip install lxml
 If you want to use the powerline status bar (https://pypi.python.org/pypi/powerline-status/2.1.4), install it via pip:
 
 ```
-pip install powerline-status
+sudo pip install powerline-status
 ```
 
 You may need to adjut the path to the powerline package in the .vimrc file according to the version of python you are using (python2.7 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
 ```
 set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
+```
+
+If you are not seeing the powerline status bar, check if the path above exists at all and where python is installed. If you are on Ubuntu/Debian, these are possible paths:
+
+```
+/usr/lib/python2.7/dist-packages/powerline/bindings/vim/
+/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 ```
 
 For issues relates to fonts for powerline see https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
