@@ -15,7 +15,7 @@ This repository contains my vimrc configuration and the following vim plugins:
 I clone this configuration to my home directory every time I need my vim configuration on a new machine (typically when using cloud instances). 
 
 This configuration assumes that vim 7.+ with python support is installed. You can check the vim version with
-```
+```bash
 vim --version
 ```
 
@@ -28,37 +28,37 @@ In case you get the following warning:
 
 First, make sure you have the development libraries of libxml and libxslt installed. On CentOS/RedHat/Fedora:
 
-```
+```bash
 sudo yum install -y libxml-devel libxslt-devel
 ```
 
 On Ubuntu/Debian:
-```
+```bash
 sudo yum install -y libxml2-dev libxslt-dev
 ```
 
 
 Then, install the lxml python library as follows:
 
-```
+```bash
 sudo pip install lxml
 ```
 
 ### powerline
 If you want to use the powerline status bar (https://pypi.python.org/pypi/powerline-status/2.1.4), install it via pip:
 
-```
+```bash
 sudo pip install powerline-status
 ```
 
 You may need to adjut the path to the powerline package in the .vimrc file according to the version of python you are using (python2.7 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
-```
+```bash
 set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
 ```
 
 If you are not seeing the powerline status bar, check if the path above exists at all and where python is installed. If you are on Ubuntu/Debian, these are possible paths:
 
-```
+```bash
 /usr/lib/python2.7/dist-packages/powerline/bindings/vim/
 /usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 ```
