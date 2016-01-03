@@ -60,3 +60,7 @@ set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
 set laststatus=2
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
+
+" force markdown syntax for .md files
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
