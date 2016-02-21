@@ -11,6 +11,7 @@ This repository contains my vimrc configuration and the following vim plugins:
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 - [vim-json](https://github.com/elzr/vim-json)
 - [vim-xpath](https://github.com/actionshrimp/vim-xpath)
+- [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)
 
 I clone this configuration to my home directory every time I need my vim configuration on a new machine (typically when using cloud instances). 
 
@@ -67,4 +68,4 @@ For issues relates to fonts for powerline see https://powerline.readthedocs.org/
 
 
 ## Licenses
-This configuration is licensed under GNU GPL3 but each plugin has its own license. Vim itself is licensed under a [charityware license](https://github.com/vim/vim#copying) (GPL compatible).
+This configuration is licensed under [GNU GPL3](https://github.com/cirulls/vimrc/blob/master/LICENSE) but each plugin has its own license. Vim itself is licensed under a [charityware license](https://github.com/vim/vim#copying) (GPL compatible).
