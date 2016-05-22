@@ -64,3 +64,5 @@ set t_Co=256
 " force markdown syntax for .md files
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
+" remap key E to command Explore
+command! E Explore
