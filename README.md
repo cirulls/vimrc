@@ -35,7 +35,7 @@ sudo yum install -y libxml-devel libxslt-devel
 
 On Ubuntu/Debian:
 ```bash
-sudo yum install -y libxml2-dev libxslt-dev
+sudo apt-get install -y libxml2-dev libxslt-dev
 ```
 
 
