@@ -52,7 +52,7 @@ If you want to use the powerline status bar (https://pypi.python.org/pypi/powerl
 sudo pip install powerline-status
 ```
 
-You may need to adjut the path to the powerline package in the .vimrc file according to the version of python you are using (python2.7 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
+You may need to adjust the path to the powerline package in the .vimrc file according to the version of python you are using (python2.7 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
 ```bash
 set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
 ```
