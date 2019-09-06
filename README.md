@@ -46,25 +46,26 @@ sudo pip install lxml
 ```
 
 ### powerline
-If you want to use the powerline status bar (https://pypi.python.org/pypi/powerline-status/2.1.4), install it via pip:
+If you want to use the powerline status bar (https://pypi.python.org/pypi/powerline-status), install it via pip:
 
 ```bash
 sudo pip install powerline-status
 ```
 
-You may need to adjust the path to the powerline package in the .vimrc file according to the version of python you are using (python2.7 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
+You may need to adjust the path to the powerline package in the .vimrc file according to the version of python you are using (python3.5 in this configuration). For example, in my .vimrc file, the powerline package is set as follows:
 ```bash
-set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
+set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 ```
 
 If you are not seeing the powerline status bar, check if the path above exists at all and where python is installed. If you are on Ubuntu/Debian, these are possible paths:
 
 ```bash
+/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 /usr/lib/python2.7/dist-packages/powerline/bindings/vim/
 /usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 ```
 
-For issues relates to fonts for powerline see https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+For issues relates to fonts for powerline see [the powerline documentation on fonts](https://powerline.readthedocs.io/en/latest/installation/linux.html#fonts-installation).
 
 
 ## Licenses
