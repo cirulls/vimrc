@@ -55,7 +55,7 @@ set shiftround   "Always indent/outdent to the nearest tabstop"
 :set paste
 
 " powerline settings
-set rtp+=/usr/lib/python2.7/site-packages/powerline/bindings/vim/
+set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 " Always show statusline
 set laststatus=2
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
