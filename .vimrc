@@ -67,7 +67,7 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " remap key E to command Explore
 command! E Explore
 
-" store temporary files in /tmp
+" store temporary files in /tmp directory
 set backupdir=.backup/,~/.backup/,/tmp//
 set directory=.swp/,~/.swp/,/tmp//
 set undodir=.undo/,~/.undo/,/tmp//
